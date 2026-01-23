@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sklep>
+   <produkt id="1">
+       <kategoria>owoce</kategoria>
+       <produkt>arbuz</produkt>
+       <kraj_pochodzenia>Turcja</kraj_pochodzenia>
+       <odmiana>Rosario</odmiana>
+    </produkt>
+    <produkt id="2">
+       <kategoria>owoce</kategoria>
+       <produkt>mandarynka</produkt>
+       <kraj_pochodzenia>Indie</kraj_pochodzenia>
+       <odmiana>Klemantynka</odmiana>
+    </produkt>
+    <produkt id="3">
+       <kategoria>owoce</kategoria>
+       <produkt>banan</produkt>
+       <kraj_pochodzenia>Kolumbia</kraj_pochodzenia>
+       <odmiana>Cavendish</odmiana>
+    </produkt>
+</sklep>
