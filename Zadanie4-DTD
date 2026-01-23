@@ -1,0 +1,7 @@
+<!ELEMENT sklep (produkt+)>
+<!ELEMENT produkt (kategoria, nazwa, kraj_pochodzenia, odmiana)>
+<!ATTLIST produkt id ID #REQUIRED>
+<!ELEMENT kategoria (#PCDATA)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT kraj_pochodzenia (#PCDATA)>
+<!ELEMENT odmiana (#PCDATA)>
