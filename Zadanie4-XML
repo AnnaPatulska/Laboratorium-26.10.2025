@@ -2,19 +2,19 @@
 <sklep>
    <produkt id="1">
        <kategoria>owoce</kategoria>
-       <produkt>arbuz</produkt>
+       <nazwa>arbuz</nazwa>
        <kraj_pochodzenia>Turcja</kraj_pochodzenia>
        <odmiana>Rosario</odmiana>
     </produkt>
     <produkt id="2">
        <kategoria>owoce</kategoria>
-       <produkt>mandarynka</produkt>
+       <nazwa>mandarynka</nazwa>
        <kraj_pochodzenia>Indie</kraj_pochodzenia>
        <odmiana>Klemantynka</odmiana>
     </produkt>
     <produkt id="3">
        <kategoria>owoce</kategoria>
-       <produkt>banan</produkt>
+       <nazwa>banan</nazwa>
        <kraj_pochodzenia>Kolumbia</kraj_pochodzenia>
        <odmiana>Cavendish</odmiana>
     </produkt>
