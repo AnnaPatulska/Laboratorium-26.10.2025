@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sklep>
-   <produkt id="1">
-       <kategoria>owoce</kategoria>
-       <nazwa>arbuz</nazwa>
-       <kraj_pochodzenia>Turcja</kraj_pochodzenia>
-       <odmiana>Rosario</odmiana>
-    </produkt>
-    <produkt id="2">
-       <kategoria>owoce</kategoria>
-       <nazwa>mandarynka</nazwa>
-       <kraj_pochodzenia>Indie</kraj_pochodzenia>
-       <odmiana>Klemantynka</odmiana>
-    </produkt>
-    <produkt id="3">
-       <kategoria>owoce</kategoria>
-       <nazwa>banan</nazwa>
-       <kraj_pochodzenia>Kolumbia</kraj_pochodzenia>
-       <odmiana>Cavendish</odmiana>
-    </produkt>
-</sklep>
+<rejestracja>
+    <osoba id="1">
+        <imie>Aneta</imie>
+        <nazwisko>Limanowska</nazwisko>
+        <plec>Kobieta</plec>
+        <wiek>23</wiek>
+    </osoba>
+    <osoba id="2">
+        <imie>Magdalena</imie>
+        <nazwisko>Sobczyk</nazwisko>
+        <plec>Kobieta</plec>
+        <wiek>27</wiek>
+    </osoba>
+    <osoba id="3">
+        <imie>Marianna</imie>
+        <nazwisko>Leszczynska</nazwisko>
+        <plec>Kobieta</plec>
+        <wiek>18</wiek>
+    </osoba>
+</rejestracja>
