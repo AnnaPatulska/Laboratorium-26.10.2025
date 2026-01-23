@@ -1,0 +1,35 @@
+body {
+    background-image: url('kot2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif; 
+    color: #333; 
+    padding: 20px;
+}
+
+.srodek {
+    text-align: center;
+}
+
+.pogrubienie {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+}
+nav li {
+    margin-bottom: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; 
+}
