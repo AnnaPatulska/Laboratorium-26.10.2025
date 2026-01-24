@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strona>
+    <naglowek>MOJA STRONA</naglowek>
+    <podtytul>Zadanie 6</podtytul>
+
+    <formularz cel="wyslij.php" metoda="post">
+        <pole typ="text" nazwa="imie">Imię</pole>
+        <pole typ="text" nazwa="nazwisko">Nazwisko</pole>
+        <pole typ="radio" nazwa="plec">
+            <opcja wartosc="female">Kobieta</opcja>
+            <opcja wartosc="male">Mężczyzna</opcja>
+        </pole>
+        <pole typ="text" nazwa="wiek">Wiek</pole>
+    </formularz>
+
+    <menu>
+        <link adres="http://www.onet.pl">ONET</link>
+        <link adres="https://uafm.edu.pl">FRYCZ</link>
+    </menu>
+</strona>
