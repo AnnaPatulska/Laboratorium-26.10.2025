@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="strona">
+    <xs:complexType>
+      <xs:sequence>
+
+        <xs:element name="naglowek" type="xs:string"/>
+        <xs:element name="podtytul" type="xs:string"/>
+
+        <xs:element name="formularz">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pole" maxOccurs="unbounded" mixed="true">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="opcja" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="wartosc" type="xs:string" use="required"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="typ" type="xs:string" use="required"/>
+                  <xs:attribute name="nazwa" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="cel" type="xs:string" use="required"/>
+            <xs:attribute name="metoda" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="menu">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="link" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="adres" type="xs:string" use="required"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
